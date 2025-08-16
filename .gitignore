@@ -1,0 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Django migrations
+*/migrations/
+db.sqlite3
+
+# Env & config
+.env
+.env.*
+*.local
+*.envrc
+
+# VSCode, IDE, system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node stuff (if using JS)
+node_modules/
+
+# Coverage/test
+htmlcov/
+.coverage
+
+# Windows
+*.bak
+*.swp
+
+# Secret keys
+secrets.json
